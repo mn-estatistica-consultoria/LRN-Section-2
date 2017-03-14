@@ -28,21 +28,21 @@ const styles = StyleSheet.create({
 		justifyContent: 'center',
 	},
 	quoteText: {
-		fontFamily: (Platform.OS === 'ios') ? 
-			'AvenirNext-Bold' :
+		fontFamily: (Platform.OS === 'ios') ? 'AvenirNext-Bold' :
 			'Roboto',
 		fontSize: 36,
 		color: '#ffffff',
 		marginVertical: 30,
+		marginHorizontal: 10,
 	},
 	sourceText: {
-		fontFamily: (Platform.OS === 'ios') ? 
-			'AvenirNext-Italic' :
+		fontFamily: (Platform.OS === 'ios') ? 'AvenirNext-Italic' :
 			'Roboto',
 		fontSize: 20,
 		color: '#F8F8F8',
 		textAlign: 'right',
 		fontStyle: 'italic',
+		marginHorizontal: 5,
 	},
 })
 

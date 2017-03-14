@@ -59,7 +59,7 @@ QuoteScreen.propTypes = {
 const styles = StyleSheet.create({
 	backgroundContainer: {
 		flex: 1,
-		resizeMode: 'cover',
+		// resizeMode: 'cover',
 		width: undefined,
 		height: undefined,
 	},
